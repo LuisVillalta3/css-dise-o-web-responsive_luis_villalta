@@ -4,6 +4,8 @@
 
 .gallery {
   display: flex;
+  background: #d5c75f;
+  padding: 1em;
   justify-content: space-between;
   flex-wrap: wrap;
 }
