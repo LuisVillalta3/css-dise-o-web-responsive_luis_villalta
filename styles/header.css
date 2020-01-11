@@ -6,6 +6,7 @@ header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: #fff;
+  animation: slidein 1.5s;
 }
 
 header h1 {
@@ -25,6 +26,18 @@ header ul li {
 
 header a.current {
   text-decoration: none;
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: 150%;
+  }
+  60% {
+    margin-top: -5%;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
